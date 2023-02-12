@@ -1,9 +1,6 @@
-# AirBnB_clone
 A team project by Audu Sundday and Ejembi Sunday
 
 Welcome to the AirBnB clone project!
-
-This is a collaborative project between I (Sunday Audu) and a colleague (Sunday Ejembi) in the ALX cohort-9 SE Program.
 
 BACKGROUND CONTEXT
 
@@ -26,3 +23,16 @@ Create all unittests to validate all our classes and storage engine.
 Execution Your shell should work like this in interactive mode:
 
 $ ./console.py (hbnb) help
+
+Documented commands (type help ):
+EOF help quit
+
+(hbnb) (hbnb) (hbnb) quit $ But also in non-interactive mode: (like the Shell project in C)
+
+$ echo "help" | ./console.py (hbnb)
+
+Documented commands (type help ):
+EOF help quit (hbnb) $ $ cat test_help help $ $ cat test_help | ./console.py (hbnb)
+
+Documented commands (type help ):
+EOF help quit (hbnb) $ All tests should also pass in non-interactive mode: $ echo "python3 -m unittest discover tests" | bash# AirBnB_clone
